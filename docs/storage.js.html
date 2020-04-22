@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>storage.js | sy-utils介绍</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">ruban文档</a></li><li class="nav-heading"><a href="index.html">介绍</a></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonData.html">commonData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArray">bArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArrayLike">bArrayLike</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bBooleanType">bBooleanType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bDocument">bDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bEmptyObject">bEmptyObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bFunction">bFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNaN">bNaN</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNull">bNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNumber">bNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bPlainObject">bPlainObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bStringType">bStringType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bUndefined">bUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bWindow">bWindow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getEach">getEach</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getNodeName">getNodeName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getTrim">getTrim</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonOther.html">commonOther</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.callApp">callApp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.formatMoney">formatMoney</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRandom">getRandom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRealStringLenth">getRealStringLenth</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Cookie.html">Cookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.getCookie">getCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.hasCookie">hasCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.removeCookie">removeCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.setCookie">setCookie</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="formateTime.html">formateTime</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bLeapYear">bLeapYear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bToday">bToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDateStr">getDateStr</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDays">getDays</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDur">getDur</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getRemoveSec">getRemoveSec</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getSeparator">getSeparator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getStampMore">getStampMore</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getTMin">getTMin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getYMD">getYMD</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Platform.html">Platform</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#._getUA">_getUA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bAndroid">bAndroid</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.biOS">biOS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneX">bIphoneX</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIPhoneXR">bIPhoneXR</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneXSMax">bIphoneXSMax</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bMobile">bMobile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bPC">bPC</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bWechat">bWechat</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Storage.html">Storage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.clearStorage">clearStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.getStorage">getStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.removeStorage">removeStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.setStorage">setStorage</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="URL.html">URL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUaParams">getUaParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlAllParam">getUrlAllParam</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlParam">getUrlParam</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="validator.html">validator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bCarNum">bCarNum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIdCard">bIdCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIP">bIP</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bMail">bMail</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bName">bName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPhone">bPhone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPwd">bPwd</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bRegisterUserName">bRegisterUserName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bTel">bTel</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">storage.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * 关于本地存储的使用方法
+ * @namespace Storage
+ */
+
+/**
+ * 获取本地存储中 指定的key值对应的value值， 默认是从localStorage中取
+ * 
+ * @memberof Storage
+ * @param {string} [key=''] 指定的key值
+ * @param {string} [type='local'] 指定的本地存储类型 
+ * @returns {string|Object} 返回对应的key值的value 
+ */
+function getStorage(key = '', type = 'local') {
+    if (key === '') {
+        return null;
+    }
+    let store = _getStorage(type),
+        _val = store.getItem(key),
+        res;
+
+    try {
+        res = JSON.parse(_val);
+    } catch (error) {
+        res = _val;
+    }
+    return res;
+}
+/**
+ * 在指定类型的本地存储中添加新的记录
+ * 
+ * @memberof Storage
+ * @param {string} [key=''] 新添加的记录的key值
+ * @param {string} [val=''] 新添加的记录的value值
+ * @param {string} [type='local'] 指定的本地存储类型
+ * @returns {undefined} 无返回值
+ */
+function setStorage(key = '', val = '', type = 'local') {
+    if (key === '') {
+        return;
+    }
+    let store = _getStorage(type),
+        _val;
+
+    if (typeof val === 'string' || typeof val === 'number') {
+        _val = val;
+    } else {
+        _val = JSON.stringify(val);
+    }
+    store.setItem(key, _val);
+}
+/**
+ * 移除指定的本地存储类型中的 指定的key记录
+ * 
+ * @memberof Storage
+ * @param {string} [key=''] 要移除的记录的key值
+ * @param {string} [type='local'] 要移除的本地存储类型
+ * @returns {undefined} 无返回值
+ */
+function removeStorage(key = '', type = 'local') {
+    if (key === '') {
+        return;
+    }
+    let store = _getStorage(type);
+    store.removeItem(key);
+}
+/**
+ * 清除指定的本地存储类型中的所有记录
+ * 
+ * @memberof Storage
+ * @param {string} [type='local'] 
+ * @returns {undefined} 无返回值 
+ */
+function clearStorage(type = 'local') {
+    let store = _getStorage(type);
+    store.clear();
+}
+
+function _getStorage(type = 'local') {
+    if (type !== 'local') {
+        return sessionStorage;
+    }
+    return localStorage;
+}
+
+export { getStorage, setStorage, removeStorage, clearStorage };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Wed Apr 22 2020 21:13:57 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

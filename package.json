@@ -1,0 +1,35 @@
+{
+    "name": "rubans",
+    "version": "1.0.0",
+    "description": "通用js工具",
+    "main": "util.common.js",
+    "module": "dist/util.esm.js",
+    "scripts": {
+        "build": "rollup -c",
+        "lint": "./node_modules/.bin/eslint ./src/**",
+        "prebuild": "rm -rf dist/*",
+        "prepublish": "npm test",
+        "test": "mocha",
+        "doc": "jsdoc -c conf.json -R README.md"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "eslint": "^4.19.1",
+        "jsdoc": "^3.5.5",
+        "minami": "^1.2.3",
+        "mocha": "^5.0.5",
+        "rollup": "^0.57.1",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-commonjs": "^9.1.0",
+        "rollup-plugin-filesize": "^1.5.0",
+        "rollup-plugin-json": "^2.3.0",
+        "rollup-plugin-node-resolve": "^3.3.0"
+    },
+    "dependencies": {}
+}

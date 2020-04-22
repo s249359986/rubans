@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>commonData.js | sy-utils介绍</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">ruban文档</a></li><li class="nav-heading"><a href="index.html">介绍</a></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonData.html">commonData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArray">bArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArrayLike">bArrayLike</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bBooleanType">bBooleanType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bDocument">bDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bEmptyObject">bEmptyObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bFunction">bFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNaN">bNaN</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNull">bNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNumber">bNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bPlainObject">bPlainObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bStringType">bStringType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bUndefined">bUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bWindow">bWindow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getEach">getEach</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getNodeName">getNodeName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getTrim">getTrim</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonOther.html">commonOther</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.callApp">callApp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.formatMoney">formatMoney</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRandom">getRandom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRealStringLenth">getRealStringLenth</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Cookie.html">Cookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.getCookie">getCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.hasCookie">hasCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.removeCookie">removeCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.setCookie">setCookie</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="formateTime.html">formateTime</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bLeapYear">bLeapYear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bToday">bToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDateStr">getDateStr</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDays">getDays</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDur">getDur</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getRemoveSec">getRemoveSec</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getSeparator">getSeparator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getStampMore">getStampMore</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getTMin">getTMin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getYMD">getYMD</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Platform.html">Platform</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#._getUA">_getUA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bAndroid">bAndroid</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.biOS">biOS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneX">bIphoneX</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIPhoneXR">bIPhoneXR</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneXSMax">bIphoneXSMax</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bMobile">bMobile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bPC">bPC</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bWechat">bWechat</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Storage.html">Storage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.clearStorage">clearStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.getStorage">getStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.removeStorage">removeStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.setStorage">setStorage</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="URL.html">URL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUaParams">getUaParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlAllParam">getUrlAllParam</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlParam">getUrlParam</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="validator.html">validator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bCarNum">bCarNum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIdCard">bIdCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIP">bIP</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bMail">bMail</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bName">bName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPhone">bPhone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPwd">bPwd</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bRegisterUserName">bRegisterUserName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bTel">bTel</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">commonData.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>
+/**
+ * 关于一些常用类型判断的相关方法
+ * @namespace commonData
+ */
+var hasOwnProp = Object.prototype.hasOwnProperty;
+/**
+ * 
+ * 判断undefined
+ * @memberof commonData
+ * @param {any} tmp 传入任意值
+ * @returns {Boolean} 返回为布尔值
+ */
+function bUndefined (tmp) {
+    return typeof tmp === 'undefined';
+}
+/**
+ * 
+ *  判断判断null
+ * @memberof commonData
+ * @param {any} tmp 传入任意值
+ * @returns {Boolean} 返回为布尔值
+ */
+function bNull (tmp) {
+    return  tmp === null;
+}
+/**
+ * 判断判断NaN
+ * @memberof commonData
+* @param {any} tmp 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bNaN (tmp) {
+    return tmp !== tmp;
+}
+/**
+* 判断数据类型为数值型number
+* @memberof commonData
+* @param {any} val 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bNumber(val){
+    return typeof val === 'number' &amp;&amp; isFinite(val);
+}
+/**
+* 判断数据类型为布尔型（boolean）
+* @memberof commonData
+* @param {any} val 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bBooleanType(val) {
+    return typeof val ==='boolean';
+}
+/**
+* 判断数据类型为字符串(String)
+* @memberof commonData
+* @param {any} val 传入任意值
+ * @returns {Boolean} 返回为布尔值
+*/
+function bStringType(val) {
+    return typeof val === 'string';
+}
+
+/**
+* 判断是对象
+* @memberof commonData
+* @param {any} obj 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bPlainObject (obj) {
+    return !!obj
+    &amp;&amp; typeof obj === 'object'
+    &amp;&amp; obj.toString() === '[object Object]'
+    &amp;&amp; obj.constructor === Object;
+}
+/**
+* 判断是否是空对象
+* @memberof commonData
+* @param {any} obj 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bEmptyObject (obj) {
+    for (var key in obj) {
+        return false;
+    }
+    return true;
+}
+/**
+* 判断arr是否是Array
+* @memberof commonData
+*  @param {any} arr 传入任意值
+*  @returns {Boolean} 返回为布尔值
+*/
+function bArray (arr) {
+    return Object.prototype.toString.call(arr) === '[object Array]';
+}
+/**
+* 判断obj是否是类数组
+* @memberof commonData
+* @param {any} obj 传入任意值
+* @returns {Boolean} 返回为布尔值
+*/
+function bArrayLike (obj) {
+    if (obj &amp;&amp;                                // obj b not null, undefined, etc.
+        typeof obj === 'object' &amp;&amp;            // obj b an object
+        isFinite(obj.length) &amp;&amp;               // obj.length b a finite number
+        obj.length >= 0 &amp;&amp;                    // obj.length b non-negative
+        obj.length===Math.floor(obj.length) &amp;&amp;  // obj.length b an integer
+        obj.length &lt; 4294967296)              // obj.length &lt; 2^32
+        return true;                        // Then obj b array-like
+    else
+        return false;    
+}
+/**
+* 判断fn是否是Function
+* @memberof commonData
+*  @param {any} fn 传入任意值
+*  @returns {Boolean} 返回为布尔值
+*/
+function bFunction (fn) {
+    return '[object Function]' === Object.prototype.toString.call(fn);
+}
+
+/**
+ * 
+ * 判断是否是Window
+ * @memberof commonData
+ * @param {any} obj 传入任意值
+ * @returns {Boolean} 返回为布尔值
+ */
+function bWindow (obj) {
+    return obj != null &amp;&amp; obj == obj.window;
+}
+/**
+ * 
+ * 判断是否是文档类型
+ * @memberof commonData
+ * @param {any} obj 传入任意值
+ * @returns {Boolean} 返回为布尔值
+ */
+function bDocument (obj) {
+    return obj != null &amp;&amp; obj.nodeType == obj.DOCUMENT_NODE;
+}
+
+/**
+ * 
+ * 获取元素节点名称
+ * @memberof commonData
+ * @param {any} elem 传入任意值
+ * @param {any} name 传入任意值
+ * @returns {String} 节点名称
+ */
+function getNodeName (elem, name) {
+    return elem.nodeName &amp;&amp; elem.nodeName.toLowerCase() === name.toLowerCase();
+}
+
+/**
+ * 
+ * 遍利节点
+ * @memberof commonData
+ * @param {Object} obj 对象
+ * @param {Function} fn 函数
+ * @param {String} context 内容文本
+ * @returns {String} 所有节点
+ */
+function getEach (obj, fn, context) {
+    for (var key in obj) {
+        if (hasOwnProp.call(obj, key)) {
+            //inx,element
+            fn.call(context || this, key, obj[key]);
+        }
+    }
+}
+
+/**
+ * 
+ * 清除字符串空格
+ * @memberof commonData
+ * @param {String} text 传入值为字符串
+ * @returns {String} 无空格的字符串
+ */
+function getTrim (text) {
+    var reg = /(^\s*)|(\s*$)/g;
+    return text == null ?
+        '' :
+        ( text + '' ).replace(reg, '');
+}
+
+/**
+ * 指定时间内唤起APP
+ * @memberof commonOther
+ * @param {String} schema 传入值为字符串类型
+ * @param {Number} timeOut 传入值为数字类型
+ * @returns {Object} Promise 对象，通过 .then/.catch 对唤起成功或失败的状态进行下一步操作。
+ */
+function callApp( schema, timeOut = 2000 ){
+    let p = new Promise((resolve, reject)=>{
+      location.href = schema || '';
+      let timer = setTimeout(()=>{
+        reject();
+      },timeOut)
+      window.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') {
+          clearTimeout(timer);
+          resolve();
+        }
+      })
+    })
+    return p
+}
+
+export {bUndefined, bNull, bNaN, bNumber, bBooleanType, bStringType, bPlainObject, bEmptyObject, bArray, bArrayLike, bFunction, bWindow, bDocument, getNodeName, getEach, getTrim, callApp};</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Wed Apr 22 2020 21:13:57 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+stages:
+  - test
+  - build
+
+before_script:
+  - npm install
+
+test:
+  stage: test
+  script: 
+    - npm test
+
+build:
+  stage: build
+  script: npm run build

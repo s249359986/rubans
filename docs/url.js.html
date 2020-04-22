@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>url.js | sy-utils介绍</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">ruban文档</a></li><li class="nav-heading"><a href="index.html">介绍</a></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonData.html">commonData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArray">bArray</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bArrayLike">bArrayLike</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bBooleanType">bBooleanType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bDocument">bDocument</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bEmptyObject">bEmptyObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bFunction">bFunction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNaN">bNaN</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNull">bNull</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bNumber">bNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bPlainObject">bPlainObject</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bStringType">bStringType</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bUndefined">bUndefined</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.bWindow">bWindow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getEach">getEach</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getNodeName">getNodeName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonData.html#.getTrim">getTrim</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="commonOther.html">commonOther</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.callApp">callApp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.formatMoney">formatMoney</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRandom">getRandom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="commonOther.html#.getRealStringLenth">getRealStringLenth</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Cookie.html">Cookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.getCookie">getCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.hasCookie">hasCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.removeCookie">removeCookie</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Cookie.html#.setCookie">setCookie</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="formateTime.html">formateTime</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bLeapYear">bLeapYear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.bToday">bToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDateStr">getDateStr</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDays">getDays</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getDur">getDur</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getRemoveSec">getRemoveSec</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getSeparator">getSeparator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getStampMore">getStampMore</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getTMin">getTMin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="formateTime.html#.getYMD">getYMD</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Platform.html">Platform</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#._getUA">_getUA</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bAndroid">bAndroid</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.biOS">biOS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneX">bIphoneX</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIPhoneXR">bIPhoneXR</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bIphoneXSMax">bIphoneXSMax</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bMobile">bMobile</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bPC">bPC</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Platform.html#.bWechat">bWechat</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Storage.html">Storage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.clearStorage">clearStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.getStorage">getStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.removeStorage">removeStorage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Storage.html#.setStorage">setStorage</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="URL.html">URL</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUaParams">getUaParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlAllParam">getUrlAllParam</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="URL.html#.getUrlParam">getUrlParam</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="validator.html">validator</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bCarNum">bCarNum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIdCard">bIdCard</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bIP">bIP</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bMail">bMail</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bName">bName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPhone">bPhone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bPwd">bPwd</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bRegisterUserName">bRegisterUserName</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="validator.html#.bTel">bTel</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">url.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * 关于url 和 app信息 相关信息获取方法
+ * @namespace URL
+ */
+
+/**
+ * 获取传入的url或当前url中，指定查询字符串对应的值
+ * 
+ * @memberof URL
+ * @param {string} key 指定的url，非必传，不传默认按照当前url
+ * @returns {string} 指定查询字符串对应的value值
+ */
+function getUrlParam(key) {
+    let url = window.location.href;
+    let startIndex = url.indexOf('?');
+    let params = {};
+    if (startIndex > -1) {
+        let str = url.substring(startIndex + 1);
+        let arr = str.split('&amp;');
+        for (let i = 0; i &lt; arr.length; i++) {
+            let kv = arr[i].split('=');
+            if (kv[1].indexOf('#') > -1) {
+                kv[1] = kv[1].substring(0, kv[1].indexOf('#'));
+            }
+            params[kv[0]] = kv[1];
+        }
+    }
+    return params[key];
+}
+
+/**
+ * 兼容了url前后都有?，获取传入的url或当前url中，指定查询字符串对应的值
+ * 
+ * @memberof URL
+ * @param {string} args 参数
+ * @returns {string} 指定查询字符串对应的value值
+ */
+function getUrlAllParam(...args) {
+    if (args.length === 0) return undefined
+    const url = decodeURIComponent(window.location.href)
+    // 兼容用户端与司机端参数key不一致的问题
+    const reg = args.length === 1
+      ? new RegExp(`[&amp;?]${args[0]}=([^&amp;%#]+)`)
+      : new RegExp(`[&amp;?](?:${args.join('|')})=([^&amp;%#]+)`)
+    
+    const matchArray = url.match(reg)
+    
+    return matchArray === null ? undefined : matchArray[1]
+}
+
+/**
+ * 获取指定的url或者当前url中， 所有查询字符串值的集合
+ * 
+ * @memberof URL
+ * @param {any} str 指定的url字符串
+ * @returns  {Array} url中所有查询字符串值的集合
+ */
+
+function getParams(str) {
+    let queryString = str || window.location.search || '';
+    let keyValPairs = [];
+    let params = {};
+    queryString = queryString.replace(/.*?\?/, '');
+
+    if (queryString.length) {
+        keyValPairs = queryString.split('&amp;');
+        for (let pairNum in keyValPairs) {
+            let key = keyValPairs[pairNum].split('=')[0];
+            if (!key.length) continue;
+            if (typeof params[key] === 'undefined') params[key] = [];
+            params[key].push(keyValPairs[pairNum].split('=')[1]);
+        }
+    }
+    return params;
+}
+/**
+ * 获取公共参数（app信息）
+ * 
+ * @memberof URL
+ * @param {string} key 需要获取的查询字符串键名
+ * @returns {string} app信息中key对应的value值
+ */
+function getUaParams (key) {
+    let ua = navigator.userAgent;
+    //  ua += 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A421 58app cdvsupport 58appbundleid(com.58SuYun.SuYunDriver) 58appversion(3.2) realVersion/3.2 version/5.2.0 imei/7FF330CD-051C-47C5-9D6F-6F54E274B174 mobileVersion/11.0.2 mobileBoard/iPhone manufacturer/Apple channel/AppStore appType/2 appName/58SuYunDriverIOS'
+    let uaArr = ua.split(' ');
+    for (let i = 0; i &lt; uaArr.length; i++) {
+        if (uaArr[i].indexOf('/') > -1) {
+            let uaItem = uaArr[i].split('/');
+            if (uaItem[0] === key) {
+                return uaItem[1];
+            }
+        }
+    }
+}
+export { getUrlParam, getParams, getUaParams, getUrlAllParam};
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Wed Apr 22 2020 21:13:57 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
